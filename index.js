@@ -14,11 +14,13 @@ function scuberGreetingForFeet(ride,chargeInDollars){
 
 function ternaryCheckCity(city){
   // Write your code here
-  if (city === "NYC") {
-    return "Ok, sounds good."
-  } else {
-    return "No go."
-  }
+  // if (city === "NYC") {
+  //   return "Ok, sounds good."
+  // } else {
+  //   return "No go."
+  // }
+  
+  return city === "NYC" ? "Ok, sounds good." : "No go.";
   
 }
 console.log(ternaryCheckCity())
